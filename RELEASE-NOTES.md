@@ -1,5 +1,23 @@
 ## RELEASE NOTES
 
+### Version 2.1.3 - Sep 03, 2015
+
+**Bugfixes**
+- **Embed** - Fixes issue with `?=` appearing before parameters instead of `?` [#2956](https://github.com/Semantic-Org/Semantic-UI/issues/2956) **Thanks @AgentShark**
+- **Input** - Fixes regression where `ui icon input` inside forms were not correct width [#2953](https://github.com/Semantic-Org/Semantic-UI/issues/2953)
+- **Input** - Fixes typo in focused placeholder text color preventing the value from being used [#2939](https://github.com/Semantic-Org/Semantic-UI/issues/2939)
+- **Input** - `action input` now correctly show focused border on button side, and avoids duplicating borders
+
+### Version 2.1.2 - Sep 02, 2015
+
+**Bugfix**
+- **Form Validation** - Fixes callbacks on `onSuccess` so as to not break backwards compatibility. #2945 #2944
+
+### Version 2.1.1 - Sep 02, 2015
+
+**Bugfix**
+- **Build Tools** - Fixes [issue](https://github.com/Semantic-Org/Semantic-UI/commit/3d20d5e9796e05cc100af73370173f3383cf1d81) causing comment banner to incorrectly show version `2.0.7` in `dist/`
+
 ### Version 2.1.0 - Sep 02, 2015
 
 #### Features
